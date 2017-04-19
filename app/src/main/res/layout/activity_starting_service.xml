@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lucky.openstackfailurealert.activities.StartingServiceActivity"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_light"
+        android:id="@+id/ip"/>
+
+    <EditText
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editIP"
+        android:textSize="20sp"
+        android:hint="@string/site_hint"
+        android:textColor="@android:color/white"
+        android:background="@drawable/common_shaper"
+        android:textColorHint="#59FFFFFF"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_light"
+        android:id="@+id/port"/>
+
+    <EditText
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:id="@+id/editPort"
+        android:textSize="20sp"
+        android:maxLength="6"
+        android:inputType="number"
+        android:hint="@string/port_hint"
+        android:background="@drawable/common_shaper"
+        android:textColorHint="#59FFFFFF"/>
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Time Interval in Seconds to Check Periodically:"
+        android:textColor="@android:color/holo_red_light"
+        android:id="@+id/interval"/>
+
+    <EditText
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:id="@+id/editInterval"
+        android:textSize="20sp"
+        android:maxLength="7"
+        android:inputType="number"
+        android:hint="@string/seconds_hint"
+        android:background="@drawable/common_shaper"
+        android:textColorHint="#59FFFFFF"/>
+
+    <Button
+        android:id="@+id/startingService"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shaper"
+        android:text=" Start Failure Checking "
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/background</color>
+    <color name="colorPrimaryDark">#E53935</color> <!--material red 600-->
+    <color name="colorAccent">@android:color/white</color>
+    <color name="background">#F44336</color> <!--material red 500-->
+    <color name="material_red_a700">#D50000</color>
+    <color name="material_red_900">#B71C1C</color>
+    <color name="material_red_600">#E53935</color>
+
+
+
+</resources>

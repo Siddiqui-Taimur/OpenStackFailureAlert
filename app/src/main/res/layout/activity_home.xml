@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <android.support.v7.widget.GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:grid="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        grid:alignmentMode="alignBounds"
+        grid:columnCount="2"
+        tools:context="com.example.lucky.openstackfailurealert.activities.HomeActivity">
+
+        <Button
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:background="@drawable/button_shaper"
+            android:text="Dashboard"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/horizon" />
+
+
+
+        <Button
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:background="@drawable/button_shaper"
+            android:text="Keystone"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/keystone"/>
+
+
+        <Button
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:background="@drawable/button_shaper"
+            android:text="DRaaS"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/draas"/>
+
+        <Button
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:background="@drawable/button_shaper"
+            android:text="Compute"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/compute"/>
+
+        <Button
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:background="@drawable/button_shaper"
+            android:text="Cinder"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/cinder"/>
+
+
+        <Button
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:background="@drawable/button_shaper"
+            android:text="Glance"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/glance"/>
+
+        <Button
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:background="@drawable/button_shaper"
+            android:text="Swift"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/swift"/>
+
+        <Button
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:background="@drawable/button_shaper"
+            android:text="Neutron"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/neutron"/>
+
+
+    </android.support.v7.widget.GridLayout>
+
+</ScrollView>
+
+    <!--grid:rowOrderPreserved="false"
+    grid:useDefaultMargins="true"-->
+
+
+<!--The same above gridlayout can be done by below tablelayout-->
+<!--
+<TableLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:stretchColumns="0,1">
+
+<TableRow>
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/button1"
+        android:height="100dp"
+        android:layout_gravity="fill_vertical"
+        android:text="Button 1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_margin="10dp"
+        android:height="100dp"
+        android:layout_gravity="fill_vertical"
+        android:text="Button 3" />
+</TableRow>
+
+<TableRow>
+    <Button
+        android:id="@+id/button2"
+        android:layout_margin="10dp"
+        android:height="100dp"
+        android:layout_gravity="fill_vertical"
+        android:text="Button 2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_margin="10dp"
+        android:height="100dp"
+        android:layout_gravity="fill_vertical"
+        android:text="Button 4" />
+</TableRow>
+</TableLayout>-->

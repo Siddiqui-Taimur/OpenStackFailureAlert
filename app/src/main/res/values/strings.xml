@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OpenStack Failure Alert</string>
+
+    <string name="site_hint"><font size="13">www.example.com OR 10.0.0.0</font></string>
+    <string name="port_hint"><font size="20">9292</font></string>
+    <string name="seconds_hint"><font size="20">120</font></string>
+
+</resources>
